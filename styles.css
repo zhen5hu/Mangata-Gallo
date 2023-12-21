@@ -71,6 +71,10 @@ nav li:hover {
   background-position: center;
 }
 
+.story article {
+  margin: 1rem;
+}
+
 .shop {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
