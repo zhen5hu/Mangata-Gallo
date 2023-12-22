@@ -7,7 +7,7 @@ body {
   margin-right: 5%;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 580px) {
   h1 {
     font-size: 2rem;
   }
@@ -20,9 +20,12 @@ body {
     font-size: 0.5rem;
   }
   
+  nav li {
+    font-size: 0.75rem;
+  }
 }
 
-@media (min-width: 551px) {
+@media (min-width: 581px) {
   h1 {
     font-size: 3rem;
   }
@@ -35,6 +38,9 @@ body {
     font-size: 1rem;
   }
 
+  nav li {
+    font-size: 1.5rem;
+  }
 }
 
 p {
@@ -59,9 +65,8 @@ nav ul {
 
 nav li {
   display:inline-block ;
-  font-size: 1.5rem;
   text-decoration: none;
-  padding: 2rem;
+  padding: 0.5rem 1.25rem;
 }
 
 a {
@@ -100,7 +105,7 @@ nav li:hover {
 .shop {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 1.5rem;
 }
 
 footer {
@@ -121,6 +126,7 @@ footer div {
 }
 
 footer p {
-  text-align: center;
+  text-align: right;
+  margin-right: 5%;
   color: white;
 }
